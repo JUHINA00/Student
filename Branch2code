@@ -1,0 +1,11 @@
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+user_input_2 = input("Enter another number: ")
+number_2 = int(user_input_2)
+result = check_even_odd(number_2)
+print(f"The second number is {result}.")
+for i in range(2):
+    print("This is line", i+1, "in the second branch.")
